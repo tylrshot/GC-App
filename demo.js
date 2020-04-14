@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     $(".single").click(function() {
-      alert("Test");
+      window.location.href = "specific.html";
     });
 
 });
