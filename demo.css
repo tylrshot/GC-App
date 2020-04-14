@@ -1,0 +1,59 @@
+.single:hover {
+    background: #1c1c1c;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(columns, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.grid > div {
+  background: #292929;
+  padding: .8rem;
+  border-radius: 1rem;
+}
+
+body {
+  margin: 2rem;
+  font: 12px system-ui;
+  color: white;
+}
+
+.status_green {
+  width: 2%;
+  height: 2.5rem;
+  width: 0.3rem;
+  border-radius: .1rem;
+  background-color: green;
+  float: left;
+}
+
+.status_yellow {
+  width: 2%;
+  height: 2.5rem;
+  width: 0.3rem;
+  border-radius: .1rem;
+  background-color: yellow;
+  float: left;
+}
+
+.info {
+    width: 97.5%;
+    float: right;
+}
+
+
+.main {
+  width: 50%;
+  float: left;
+}
+.menu {
+  width: 25%;
+  float: left;
+}
+
+html {
+    background: #424242;
+}
+
+
